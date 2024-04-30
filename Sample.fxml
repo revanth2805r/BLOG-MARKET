@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="315.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <children>
+      <Button fx:id="signin" layoutX="339.0" layoutY="225.0" mnemonicParsing="false" onAction="#login" prefHeight="26.0" prefWidth="195.0" style="-fx-background-color: #008ABE; -fx-background-radius: 50;" text="SIGN IN" textFill="WHITE" />
+      <TextField fx:id="usernamel" layoutX="339.0" layoutY="114.0" prefHeight="26.0" prefWidth="195.0" promptText="USRE NAME" />
+      <PasswordField fx:id="passwordl" layoutX="339.0" layoutY="169.0" prefHeight="26.0" prefWidth="195.0" promptText="PASSWORD" />
+      <ImageView fitHeight="286.0" fitWidth="327.0" layoutX="14.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/vecteezy_boy-standing-holding-laptop-with-left-hand-giving-thumbs-up_11006184.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="380.0" layoutY="41.0" prefHeight="55.0" prefWidth="114.0" text="SIGN IN">
+         <font>
+            <Font name="Tw Cen MT Condensed" size="49.0" />
+         </font>
+      </Label>
+      <Button fx:id="createaccount" layoutX="437.0" layoutY="263.0" onAction="#reg" style="-fx-background-color: white;" text="Create Account" textFill="#008abe" />
+   </children>
+</AnchorPane>

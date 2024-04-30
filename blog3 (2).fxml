@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <children>
+      <Label layoutX="53.0" layoutY="37.0" prefHeight="31.0" prefWidth="346.0" style="-fx-border-color: black;" text="    JAVAFX BLOG" />
+      <Label layoutX="53.0" layoutY="85.0" prefHeight="242.0" prefWidth="459.0" style="-fx-border-color: black;" text="&quot;JavaFX, a powerful framework for building rich client applications, stands at the forefront of modern user interface development. As the successor to Swing, JavaFX leverages Java's strength while introducing advanced features like FXML for declarative UI design and CSS for styling. Its cross-platform compatibility ensures seamless deployment on various devices. With a robust set of APIs, JavaFX simplifies the creation of interactive and visually appealing applications. Whether crafting desktop applications, mobile apps, or embedded systems, JavaFX empowers developers with a versatile toolkit. The combination of Java's reliability and JavaFX's dynamic capabilities makes it a go-to choice for creating engaging and responsive user interfaces.&quot;" wrapText="true" />
+      <Label layoutX="53.0" layoutY="343.0" prefHeight="26.0" prefWidth="150.0" style="-fx-border-color: black;" text="    EXAMPLE USER 3" />
+      <Button fx:id="back" layoutX="528.0" layoutY="14.0" mnemonicParsing="false" onAction="#back" style="-fx-background-color: #0F9CDD;" text="BACK" textFill="WHITE" />
+   </children>
+</AnchorPane>

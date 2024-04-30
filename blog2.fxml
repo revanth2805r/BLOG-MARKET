@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <children>
+      <Label layoutX="53.0" layoutY="37.0" prefHeight="31.0" prefWidth="346.0" style="-fx-border-color: black;" text="    CRICKET BLOG" />
+      <Label layoutX="53.0" layoutY="85.0" prefHeight="242.0" prefWidth="459.0" style="-fx-border-color: black;" text="&quot;Cricket, more than just a sport, is a global phenomenon that unites nations with its bat-and-ball prowess. From the iconic stadiums to the dusty streets, cricket is played with passion and fervor. The game's rich history, dating back centuries, is marked by legendary players and unforgettable moments. Formats like Test, One Day Internationals (ODIs), and the electrifying Twenty20 (T20) offer diverse spectacles for fans worldwide. Cricket isn't just about runs and wickets; it's a cultural celebration, fostering camaraderie and national pride. As boundaries are smashed and wickets tumble, cricket weaves a narrative that transcends boundaries, making it more than just a game; it's a shared love that echoes across generations.&quot;" wrapText="true" />
+      <Label layoutX="53.0" layoutY="343.0" prefHeight="26.0" prefWidth="150.0" style="-fx-border-color: black;" text="    EXAMPLE USER 4" />
+      <Button fx:id="back" layoutX="528.0" layoutY="14.0" mnemonicParsing="false" onAction="#back" style="-fx-background-color: #0F9CDD;" text="BACK" textFill="WHITE" />
+   </children>
+</AnchorPane>
